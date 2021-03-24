@@ -1,0 +1,28 @@
+body {
+    padding-top: 4.5rem;
+}
+.box-shadow {
+    box-shadow: 0 2px 4px rgba(0,0,0,.05), 
+                0 4px 8px rgba(0,0,0,.05);
+}
+.icone{
+    height: 6.25rem;
+}
+.home-quote {
+    background: url(../img/bg-quote.jpg)center center;
+    background-size: cover;
+}
+.lista-plano li {
+    padding: 1rem;
+}
+.lista-plano li + li {
+    border-top: 1px solid rgba(0,0,0,.05);
+}
+@media (min-width: 47rem) {
+    body {
+        padding-top: 0;
+    }
+    .fixed-top {
+        position: relative;
+    }
+}
